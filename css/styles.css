@@ -48,6 +48,7 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-navy-blue);
+
   margin-bottom: 8px;
 }
 .title {
@@ -56,6 +57,7 @@ button {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  color: var(--color-navy-blue);
   margin-bottom: 72px;
 }
 .section-text {
@@ -84,10 +86,11 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-iris);
-
-  margin-right: 76px;
+}
+.logo-link {
   padding-top: 24px;
   padding-bottom: 24px;
+  margin-right: 76px;
 }
 .logo-web {
   color: var(--color-navy-blue);
@@ -191,6 +194,7 @@ button {
 /* --------------Секція 2---------------- */
 .section {
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 .main-list {
   display: flex;
@@ -219,10 +223,7 @@ button {
   max-width: 264px;
   border-radius: 0px 0px 4px 4px;
 }
-.team-container {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
+
 /*------------------ Футер------------------------- */
 .footer {
   background-color: var(--color-navy-blue);
@@ -240,7 +241,7 @@ button {
 }
 .footer-link {
   display: block;
-  margin-bottom: 17.5px;
+  margin-bottom: 16px;
 }
 /*-------------- Portfolio------------ */
 .list-button {
@@ -256,6 +257,7 @@ button {
 .list-button:focus {
   color: var(--color-white);
   background-color: var(--color-ocean);
+  border: none;
 }
 .container-list {
   display: flex;
