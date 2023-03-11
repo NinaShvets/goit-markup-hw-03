@@ -196,6 +196,9 @@ button {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+.features-section {
+  padding-bottom: 0;
+}
 .main-list {
   display: flex;
   flex-wrap: wrap;
@@ -257,7 +260,7 @@ button {
 .list-button:focus {
   color: var(--color-white);
   background-color: var(--color-ocean);
-  border: none;
+  border-color: transparent;
 }
 .container-list {
   display: flex;
@@ -282,7 +285,7 @@ button {
   max-width: 360px;
 }
 .card-content {
-  padding: 32px 0 32px 16px;
+  padding: 32px 16px 32px 16px;
   border-right: 1px solid #e7e9fc;
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
